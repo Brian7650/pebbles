@@ -33,6 +33,10 @@ body {
     font:500 1rem 'Quicksand', sans-serif;
 }
 
+.form--hidden {
+    display: none;
+}
+
 .form > *:first-child {
     margin-top: 0;
 }
@@ -110,4 +114,18 @@ body {
 
 .form__button:active {
     transform: scale(0.98);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
 }
